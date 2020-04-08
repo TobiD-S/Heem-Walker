@@ -1,23 +1,26 @@
-/* Responsive Breakpoints */
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    ...
+.vertical-center {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* align the inline(-block) elements horizontally */
+    font: 0/0 a;
+    /* remove the gap between inline(-block) elements */
 }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    ...
+.vertical-center:before {
+    /* create a full-height inline block pseudo=element */
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    /* vertical alignment of the inline element */
+    height: 100%;
 }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    ...
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    ...
+.vertical-center>.container {
+    max-width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    /* vertical alignment of the inline element */
+    /* reset the font property */
+    font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
