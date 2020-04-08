@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
     <title>Heem Walker - Walk with Heem</title>
 </head>
 
 <body>
 
     <div>
+        <!-- navigation -->
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
             <a class="navbar-brand" href="#">HW</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,96 +27,110 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#shop">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
 
                 </ul>
 
             </div>
         </nav>
-        <!-- background image -->
+        <!-- background image carousel -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade mb-3" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="10000">
                     <img src="img/rupixen-com-r6yad26A_qc-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-interval="10000">
-                    <img src="img/matthew-feeney-eTmZ2BEj1vU-unsplash.jpg" class="d-block w-100" alt="...">
+                    <img src="img/greg-rosenke-LbCgZP4utcM-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-interval="10000">
-                    <img src="img/jia-ye-erHlzWCN6zQ-unsplash.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-
-
-    <div class="row container-fluid">
-        <div class="col-sm-6">
-            <div class=" card mb-3">
-                <img src="#" class="card-img-top" alt="product1">
-                <div class="card-body ">
-                    <h5 class="card-title ">HW Sky Walker</h5>
-                    <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="# " class="btn btn-primary ">Order</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class=" card mb-3">
-                <img src="#" class="card-img-top" alt="product1">
-                <div class="card-body ">
-                    <h5 class="card-title ">HW Sky Walker</h5>
-                    <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="# " class="btn btn-primary ">Order</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class=" card mb-3">
-                <img src="#" class="card-img-top" alt="product1">
-                <div class="card-body ">
-                    <h5 class="card-title ">HW Sky Walker</h5>
-                    <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="# " class="btn btn-primary ">Order</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class=" card mb-3">
-                <img src="#" class="card-img-top" alt="product1">
-                <div class="card-body ">
-                    <h5 class="card-title ">HW Sky Walker</h5>
-                    <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="# " class="btn btn-primary ">Order</a>
+                    <img src="img/harsh-jadav-BvTUSOqEcGE-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
         </div>
     </div>
-    <div class="container ">
-        <h2>About Us</h2>
-        <h4>...and the excellence we deliver</h4>
+
+    <!-- product showcase -->
+    <div class="jumbotron jumbotron-fluid" id="shop">
+        <div class="d-flex align-items-center row container-flex vertical-center">
+            <div class="col-sm-6">
+                <div class=" card mb-3 text-center">
+                    <img src="img/emile-seguin-R9OueKOtGGU-unsplash.jpg" class="card-img-top" alt="product1">
+                    <div class="card-body ">
+                        <h5 class="card-title ">HW Sky Walker</h5>
+                        <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="# " class="btn btn-outline-dark ">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class=" card mb-3 text-center">
+                    <img src="img/emile-seguin-R9OueKOtGGU-unsplash.jpg" class="card-img-top" alt="product2">
+                    <div class="card-body ">
+                        <h5 class="card-title ">HW Sky Walker</h5>
+                        <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="# " class="btn btn-outline-dark ">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class=" card mb-3 text-center">
+                    <img src="img/emile-seguin-R9OueKOtGGU-unsplash.jpg" class="card-img-top" alt="product3">
+                    <div class="card-body ">
+                        <h5 class="card-title ">HW Sky Walker</h5>
+                        <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="# " class="btn btn-outline-dark ">Order</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class=" card mb-3 text-center">
+                    <img src="img/emile-seguin-R9OueKOtGGU-unsplash.jpg" class="card-img-top" alt="product4">
+                    <div class="card-body ">
+                        <h5 class="card-title ">HW Sky Walker</h5>
+                        <p class="card-text ">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="# " class="btn btn-outline-dark ">Order</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 text-center" id="about">
+        <img src="img/alvaro-serrano-pFLNV4gkXsc-unsplash.jpg" class="card-img-top" alt="About Heem Walker">
+        <div class="card-body">
+            <h2>About Us</h2>
+            <p class="card-text">...and the excellence we deliver</p>
+        </div>
     </div>
 
-    <footer id="contact-us ">
-        <div class="footer social "></div>
-
-    </footer>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="contact">
+        <a class="navbar-brand" href="#">HW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Instagam<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     </div>
+    <script src="https://kit.fontawesome.com/0c3fb8d756.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js " integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm " crossorigin="anonymous "></script>
 </body>
 
